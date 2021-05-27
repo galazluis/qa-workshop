@@ -1,0 +1,17 @@
+{
+  "name": "testcafe_workshop",
+  "version": "1.0.0",
+  "description": "Testcafe project for Wizeline's Automation Workshop.",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/tests",
+    "test-login-chrome": "testcafe chrome ./page_model/tests/Login.test.js"
+  },
+  "author": "Wizeline",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "testcafe": "^1.14.2"
+  },
+  "keywords": []
+}
