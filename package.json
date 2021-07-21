@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-all-chrome": "testcafe chrome ./page_model/tests",
+    "test-all-safari": "testcafe safari ./page_model/tests",
     "test-login-chrome": "testcafe chrome ./page_model/tests/Login.test.js"
   },
   "author": "Wizeline",
